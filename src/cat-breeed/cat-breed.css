@@ -1,0 +1,25 @@
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: 20px 100px;
+  max-width: 1150px;
+  justify-items: center;
+  margin: 0 auto 100px;
+}
+.cat-image {
+  position: relative;
+  width: 400px;
+  top: 50px;
+  height: 250px;
+  text-align: center;
+  border-radius: 30px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    color: white;
+    background-color: rgb(74, 79, 80);
+}
